@@ -1,0 +1,8 @@
+platform :ios, '13.0'
+
+target 'RickAndMortyYAP' do
+  use_frameworks!
+
+  # Подключение YapDatabase
+  pod 'YapDatabase'
+end

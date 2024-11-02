@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80A20A68032D362508B2C22A /* Pods_RickAndMortyYAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494CC2F2BDEACDFEF91FC0EE /* Pods_RickAndMortyYAP.framework */; };
+		AA623D362C5BD1FC006C57D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623D352C5BD1FC006C57D0 /* AppDelegate.swift */; };
+		AA623D382C5BD1FC006C57D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623D372C5BD1FC006C57D0 /* SceneDelegate.swift */; };
+		AA623D3A2C5BD1FC006C57D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623D392C5BD1FC006C57D0 /* ViewController.swift */; };
+		AA623D3D2C5BD1FC006C57D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AA623D3C2C5BD1FC006C57D0 /* Base */; };
+		AA623D3F2C5BD1FE006C57D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA623D3E2C5BD1FE006C57D0 /* Assets.xcassets */; };
+		AA623D422C5BD1FE006C57D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AA623D412C5BD1FE006C57D0 /* Base */; };
+		AA623D4F2C5BD2F2006C57D0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623D4E2C5BD2F2006C57D0 /* CollectionViewCell.swift */; };
+		AA623D512C5BD308006C57D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623D502C5BD308006C57D0 /* NetworkManager.swift */; };
+		AA623D542C5BD493006C57D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA623D532C5BD493006C57D0 /* SnapKit */; };
+		AA623D562C5BD493006C57D0 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AA623D552C5BD493006C57D0 /* SnapKit-Dynamic */; };
+		AA8DB92F2C5C27350085871D /* YapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8DB92E2C5C27350085871D /* YapManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		494CC2F2BDEACDFEF91FC0EE /* Pods_RickAndMortyYAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMortyYAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B63CEAA89C5CF8155CCA6C4 /* Pods-RickAndMortyYAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMortyYAP.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMortyYAP/Pods-RickAndMortyYAP.debug.xcconfig"; sourceTree = "<group>"; };
+		797DD0441BA232D59803CF13 /* Pods-RickAndMortyYAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMortyYAP.release.xcconfig"; path = "Target Support Files/Pods-RickAndMortyYAP/Pods-RickAndMortyYAP.release.xcconfig"; sourceTree = "<group>"; };
+		AA623D322C5BD1FC006C57D0 /* RickAndMortyYAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyYAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA623D352C5BD1FC006C57D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA623D372C5BD1FC006C57D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA623D392C5BD1FC006C57D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA623D3C2C5BD1FC006C57D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA623D3E2C5BD1FE006C57D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA623D412C5BD1FE006C57D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA623D432C5BD1FE006C57D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA623D4E2C5BD2F2006C57D0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AA623D502C5BD308006C57D0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AA8DB92E2C5C27350085871D /* YapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA623D2F2C5BD1FC006C57D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA623D542C5BD493006C57D0 /* SnapKit in Frameworks */,
+				AA623D562C5BD493006C57D0 /* SnapKit-Dynamic in Frameworks */,
+				80A20A68032D362508B2C22A /* Pods_RickAndMortyYAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C32AC664CF89F77503AFF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494CC2F2BDEACDFEF91FC0EE /* Pods_RickAndMortyYAP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA623D292C5BD1FC006C57D0 = {
+			isa = PBXGroup;
+			children = (
+				AA623D342C5BD1FC006C57D0 /* RickAndMortyYAP */,
+				AA623D332C5BD1FC006C57D0 /* Products */,
+				F14F2915B3C1E461E524364E /* Pods */,
+				3C32AC664CF89F77503AFF37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA623D332C5BD1FC006C57D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA623D322C5BD1FC006C57D0 /* RickAndMortyYAP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA623D342C5BD1FC006C57D0 /* RickAndMortyYAP */ = {
+			isa = PBXGroup;
+			children = (
+				AA623D352C5BD1FC006C57D0 /* AppDelegate.swift */,
+				AA623D372C5BD1FC006C57D0 /* SceneDelegate.swift */,
+				AA623D392C5BD1FC006C57D0 /* ViewController.swift */,
+				AA8DB92E2C5C27350085871D /* YapManager.swift */,
+				AA623D4E2C5BD2F2006C57D0 /* CollectionViewCell.swift */,
+				AA623D502C5BD308006C57D0 /* NetworkManager.swift */,
+				AA623D3B2C5BD1FC006C57D0 /* Main.storyboard */,
+				AA623D3E2C5BD1FE006C57D0 /* Assets.xcassets */,
+				AA623D402C5BD1FE006C57D0 /* LaunchScreen.storyboard */,
+				AA623D432C5BD1FE006C57D0 /* Info.plist */,
+			);
+			path = RickAndMortyYAP;
+			sourceTree = "<group>";
+		};
+		F14F2915B3C1E461E524364E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B63CEAA89C5CF8155CCA6C4 /* Pods-RickAndMortyYAP.debug.xcconfig */,
+				797DD0441BA232D59803CF13 /* Pods-RickAndMortyYAP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA623D312C5BD1FC006C57D0 /* RickAndMortyYAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA623D462C5BD1FE006C57D0 /* Build configuration list for PBXNativeTarget "RickAndMortyYAP" */;
+			buildPhases = (
+				46B019E23430AD20BC5F5AE0 /* [CP] Check Pods Manifest.lock */,
+				AA623D2E2C5BD1FC006C57D0 /* Sources */,
+				AA623D2F2C5BD1FC006C57D0 /* Frameworks */,
+				AA623D302C5BD1FC006C57D0 /* Resources */,
+				407449DB157256068155E173 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RickAndMortyYAP;
+			packageProductDependencies = (
+				AA623D532C5BD493006C57D0 /* SnapKit */,
+				AA623D552C5BD493006C57D0 /* SnapKit-Dynamic */,
+			);
+			productName = RickAndMortyYAP;
+			productReference = AA623D322C5BD1FC006C57D0 /* RickAndMortyYAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA623D2A2C5BD1FC006C57D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AA623D312C5BD1FC006C57D0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AA623D2D2C5BD1FC006C57D0 /* Build configuration list for PBXProject "RickAndMortyYAP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA623D292C5BD1FC006C57D0;
+			packageReferences = (
+				AA623D522C5BD493006C57D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = AA623D332C5BD1FC006C57D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA623D312C5BD1FC006C57D0 /* RickAndMortyYAP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA623D302C5BD1FC006C57D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA623D3F2C5BD1FE006C57D0 /* Assets.xcassets in Resources */,
+				AA623D422C5BD1FE006C57D0 /* Base in Resources */,
+				AA623D3D2C5BD1FC006C57D0 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		407449DB157256068155E173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMortyYAP/Pods-RickAndMortyYAP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMortyYAP/Pods-RickAndMortyYAP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMortyYAP/Pods-RickAndMortyYAP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B019E23430AD20BC5F5AE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMortyYAP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA623D2E2C5BD1FC006C57D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA623D3A2C5BD1FC006C57D0 /* ViewController.swift in Sources */,
+				AA623D362C5BD1FC006C57D0 /* AppDelegate.swift in Sources */,
+				AA8DB92F2C5C27350085871D /* YapManager.swift in Sources */,
+				AA623D512C5BD308006C57D0 /* NetworkManager.swift in Sources */,
+				AA623D4F2C5BD2F2006C57D0 /* CollectionViewCell.swift in Sources */,
+				AA623D382C5BD1FC006C57D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA623D3B2C5BD1FC006C57D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA623D3C2C5BD1FC006C57D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA623D402C5BD1FE006C57D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA623D412C5BD1FE006C57D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA623D442C5BD1FE006C57D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA623D452C5BD1FE006C57D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA623D472C5BD1FE006C57D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B63CEAA89C5CF8155CCA6C4 /* Pods-RickAndMortyYAP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77KKK88QP8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RickAndMortyYAP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raheemspb.RickAndMortyYAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA623D482C5BD1FE006C57D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797DD0441BA232D59803CF13 /* Pods-RickAndMortyYAP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77KKK88QP8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RickAndMortyYAP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raheemspb.RickAndMortyYAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA623D2D2C5BD1FC006C57D0 /* Build configuration list for PBXProject "RickAndMortyYAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA623D442C5BD1FE006C57D0 /* Debug */,
+				AA623D452C5BD1FE006C57D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA623D462C5BD1FE006C57D0 /* Build configuration list for PBXNativeTarget "RickAndMortyYAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA623D472C5BD1FE006C57D0 /* Debug */,
+				AA623D482C5BD1FE006C57D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA623D522C5BD493006C57D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA623D532C5BD493006C57D0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA623D522C5BD493006C57D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AA623D552C5BD493006C57D0 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA623D522C5BD493006C57D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA623D2A2C5BD1FC006C57D0 /* Project object */;
+}
